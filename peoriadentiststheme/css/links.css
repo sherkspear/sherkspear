@@ -1,0 +1,83 @@
+#hd .links.quicklinks {
+    position:absolute;
+    right:255px;
+    top:30px;
+    color:#fff;
+}
+
+#hd .links.quicklinks .module-actions {
+    position:absolute;
+    top:-30px;
+    left:-20px;
+    white-space:nowrap;
+}
+
+#hd .links.quicklinks .item-actions {
+    position:absolute;
+    bottom:-16px;
+    display:none;
+    white-space:nowrap;
+}
+
+#hd .links.quicklinks ul,
+#hd .links.quicklinks ul li {
+    margin:0;
+    padding:0;
+    text-align:right;
+}
+
+#hd .links.quicklinks ul li {
+    float:left;
+    position:relative;
+    margin-right:24px;
+}
+
+#hd .links.quicklinks ul li a.link {
+    color:#fff;
+    text-decoration:none;
+}
+
+#hd .links.quicklinks ul li:hover .item-actions {
+    display:block;
+}
+
+/*hide title */
+.links h1{
+  display:none
+}
+
+
+.showall-homepageCarousel{
+   width:900px;
+   height:137px;
+   padding:15px 30px;
+   background:transparent url(../images/linkbg.png) top left no-repeat;
+   margin:20px 0px 0px 20px;
+}
+.links .item{
+  float:left;
+  width:174px;
+  height:133px;
+  padding:0px 10px;
+  margin:15px;
+  background: transparent url(../images/linkitembg.png) top left no-repeat;
+  text-align:center;
+}
+
+.showall-homepageCarousel h2 {
+   margin:0px 0px 5px 0px;
+}
+
+
+.showall-homepageCarousel h2 a{
+  color:#242424;
+  font-size:16px;
+  font-family:Arial;
+}
+
+.showall-homepageCarousel .li-link img{
+  margin-left:30px;
+  margin-top:-5px;
+  background:transparent !important;
+}
+
